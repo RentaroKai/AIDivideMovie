@@ -1,0 +1,6 @@
+pydantic>=2.6.1
+pydub>=0.25.1
+typing-extensions>=4.9.0
+httplib2
+google-genai
+ffmpeg-python>=0.2.0

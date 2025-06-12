@@ -1,0 +1,29 @@
+# Video Event Segmentation by Audio-Declared IDs
+
+## Task Description
+Analyze this video and segment it based on event IDs that are verbally announced in the audio track. Extract all event IDs along with their corresponding timestamps.
+
+## Output Requirements
+Return all detected event IDs with their start and end timestamps in CSV format.
+
+## Output Format
+```csv
+event_id,start_time,end_time
+E01,00:01,00:12
+E02,00:14,00:22
+E03,00:25,00:45
+```
+
+## Instructions
+1. Listen carefully to the entire audio track
+2. Identify each verbally announced event ID
+3. Note the exact timestamp when each event begins
+4. Determine when each event ends (either at the start of the next event or at video end)
+5. Format timestamps as MM:SS or HH:MM:SS as appropriate
+6. List events in chronological order
+
+## Example Event ID Patterns
+- "Event E01"
+- "ID: E02"
+- "Starting event E03"
+- Other verbal declarations of event identifiers

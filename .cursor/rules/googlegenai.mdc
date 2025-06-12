@@ -1,0 +1,14 @@
+---
+description: 
+globs: *.py
+alwaysApply: false
+---
+# Rule Name: google-genai-usage
+# Description:
+# このプロジェクトでは、Google の AI 機能に `google-genai` Python パッケージを使用しています（ユーザー指定：2025年4月現在）。
+# コードの生成や変更を行う際は、既存の `google.genai` モジュールの使用方法に従ってください。
+# 古いAPIや非推奨のモジュール (`google.generativeai` など) を使用するようにコードを書き換えないでください。
+# 現在の実装例については、`src/utils/new_gemini_api.py` を参照してください。
+
+
+# インストールやインポートの際には、常に `google-genai` パッケージとそのモジュール (`google.genai`) を使用するようにしてください。 
